@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registra-me</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+        <div class="dados">
+            <h1>Registra-se</h1>
+            <img src="animaçao.svg" alt="">
+                <div class="nome-sobrenome">
+                    <p>Digite seu nome e sobrenome:</p>
+                        <input type="text" name="nome" id="nome"placeholder=Nome>
+                        <input type="text" name="sobrenome" id="sobrenome"placeholder=Sobrenome>
+                    </div>
+                    <div class="usuario">
+                    <p>Crie se Usuário:</p>
+                <input type="text" name="usuario" id="user"placeholder=Usuário>
+            
+            </div>
+        <div class="senha">
+            <p>Digite sua senha:</p>
+                <input type="password" name="password" id="password" placeholder="Senha">
+                    <input type="password" name="password" id="confirme-password" placeholder="Confirmar Senha">
+                    </div>
+                    <div>
+                        <button class="btn-registrar" onclick="registrar();return false">Registrar</button>
+                    </div>
+                    <div id="ress"></div>
+                </div>
+            </div>
+        </body>
+    <script src="script.js"></script>
+</html>
