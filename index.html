@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-login">
+        <div class="login"> 
+                <div class="card-login">
+                    <h1>login</h1>
+                    <img src="animaçao.svg" alt="animaçao">
+                    <div class="textlog">
+                        <label for="email">Usuário</label>
+                        <br><input type="email" name="email" id="email" placeholder="Usuário">
+                    </div>
+                    <div class="textsen">
+                        <br><label for="senha">Senha</label>
+                        <br><input type="password" name="senha" id="senha" placeholder="senha">
+                    </div>
+                    <div>
+                        <button class="btn-login" onclick="login();return false">login</button>
+                    </div>
+                    <div>
+                       <button class="btn-registrar" onclick="redregistrar();return false">Registra-se</button>
+                    </div>
+                <div id="res"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>    
+</html>
