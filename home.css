@@ -1,0 +1,22 @@
+body{
+    background-color: #201b2c;
+    border-radius:50px  ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #201b2c;
+
+}
+img{
+    width: 300px;
+    text-align: center;
+    margin: 100px;
+}
+.conteudo{
+    color: rgb(23, 221, 175);
+    text-align: center;
+    
+}
+h1{
+    margin-bottom: 100px;
+}
